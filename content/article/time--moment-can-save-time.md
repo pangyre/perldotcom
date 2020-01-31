@@ -28,7 +28,7 @@ When Dave Rolsky came out with [DateTime]({{<mcpan "DateTime" >}}), everyone rej
 [DateTime]({{<mcpan "DateTime" >}}) can represent dates and tell me various things about them, such as the day of the quarter, give me locale-specific names, format them in interesting ways, and also give me the difference between dates:
 
 ```perl
-use Date::Time;
+use DateTime;
 
 my $dt = DateTime->new(
     year       => 2014,
